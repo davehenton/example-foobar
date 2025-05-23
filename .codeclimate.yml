@@ -29,10 +29,6 @@ checks:
   identical-code:
     config:
       threshold: # language-specific defaults. an override will affect all languages.
-
-
-plugins:
-version: "2"
 plugins:
   fixme:
     enabled: true
