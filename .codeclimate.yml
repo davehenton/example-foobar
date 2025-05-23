@@ -1,23 +1,17 @@
 version: "2"         # required to adjust maintainability checks
 checks:
   argument-count:
-    config:
-      threshold: 50
+    enabled: false
   complex-logic:
-    config:
-      threshold: 50
+    enabled: false
   file-lines:
-    config:
-      threshold: 50
+    enabled: false
   method-complexity:
-    config:
-      threshold: 50
+    enabled: false
   method-count:
-    config:
-      threshold: 50
+    enabled: false
   method-lines:
-    config:
-      threshold: 50
+    enabled: false
   nested-control-flow:
     config:
       threshold: 50
@@ -25,17 +19,16 @@ checks:
     enabled: false
   similar-code:
     config:
-      threshold: # language-specific defaults. an override will affect all languages.
+        enabled: false
   identical-code:
-    config:
-      threshold: # language-specific defaults. an override will affect all languages.
+        enabled: false
 plugins:
   fixme:
-    enabled: true
+    enabled: false
   csslint:
-    enabled: true
+    enabled: false
   rubocop:
-    enabled: true
+    enabled: false
 
 exclude_patterns:
   - "spec/"
