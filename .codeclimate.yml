@@ -1,27 +1,29 @@
 version: "2"         # required to adjust maintainability checks
 checks:
   argument-count:
-    enabled: false
-  complex-logic:
-    enabled: false
+    config:
+      threshold: 50
   file-lines:
-    enabled: false
+    config:
+      threshold: 50
   method-complexity:
-    enabled: false
+    config:
+      threshold: 50
   method-count:
-    enabled: false
+     config:
+      threshold: 50
   method-lines:
-    enabled: false
+    config:
+      threshold: 50
   nested-control-flow:
     config:
       threshold: 50
   return-statements:
-    enabled: false
+    config:
+      threshold: 50
   similar-code:
     config:
-        enabled: false
-  identical-code:
-        enabled: false
+      threshold: 50
 plugins:
   fixme:
     enabled: false
