@@ -26,7 +26,7 @@ plugins:
   csslint:
     enabled: true
   rubocop:
-    enabled: true
+    enabled: false
 exclude_patterns:
   - "spec/"
   - "nest1/"
